@@ -1,0 +1,45 @@
+node_modules
+
+# Build output / caches
+.next/
+out
+dist
+*.tsbuildinfo
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Runtime data: booking/client database. Contains personal data — never commit.
+storage/
+
+# Runtime data: uploaded files (client medical photos, portfolio images).
+# Client photos live in storage/ and are already covered above.
+public/uploads/
+
+# Client spreadsheets uploaded for import — contain personal data.
+# `imports/*` (not `imports/`) so git still descends into the directory and the
+# empty template below can be re-included; an excluded directory is never entered.
+imports/*
+!imports/clients-template.xlsx
+
+# Local tooling logs and backups
+.codex-*
+.codex-backups/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# Night-run control files (local only)
+NIGHT_PROMPT.md
+NIGHT_DONE.txt
+night-output.txt
+night.ps1
+
+# Playwright output (screenshots, traces)
+test-results/
+playwright-report/
