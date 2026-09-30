@@ -18,6 +18,7 @@ built in everywhere.
 
 - [Features](#features)
 - [Screenshots](#screenshots)
+- [Telegram bot video](#telegram-bot-video)
 - [Quick start](#quick-start-windows-macos-linux)
 - [Demo login](#demo-login)
 - [Tests](#tests)
@@ -70,6 +71,13 @@ built in everywhere.
 
 More in [docs/screenshots](docs/screenshots). They are regenerated with
 `node scripts/take-screenshots.mjs <url>` against a server running the demo data.
+
+## Telegram bot video
+
+[▶ Watch the demo: docs/videos/telegram-demo.mp4](docs/videos/telegram-demo.mp4) (5 min, 22 MB)
+
+A client books on the site, the request arrives in the doctor's Telegram chat, and the doctor
+confirms it with a button; then a walk through the admin panel.
 
 ## Quick start (Windows, macOS, Linux)
 
